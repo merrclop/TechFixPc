@@ -1,0 +1,81 @@
+body {
+    background-color: #121212; /* Темний фон для тіла */
+    color: #e0e0e0; /* Світлий текст */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f1f1f; /* Темно-сірий фон для заголовка */
+    color: #ffffff; /* Білий текст */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Легка тінь */
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.announcement, .services, .contact, .feedback, .support {
+    background-color: #2a2a2a; /* Темно-сірий фон для секцій */
+    border-radius: 8px; /* Закруглені кути */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Тінь для секцій */
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+a {
+    color: #1e90ff; /* Синій колір для посилань */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555; /* Темно-сірий бордюр */
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #333; /* Темний фон для текстового поля */
+    color: #e0e0e0; /* Світлий текст */
+}
+
+button {
+    background: #1e90ff; /* Синій фон для кнопки */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s; /* Плавний перехід */
+}
+
+button:hover {
+    background: #1c7ed6; /* Темніший синій при наведенні */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #1f1f1f; /* Темно-сірий фон для футера */
+    color: #ffffff; /* Білий текст */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
